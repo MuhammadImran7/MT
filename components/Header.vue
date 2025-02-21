@@ -22,6 +22,7 @@
             </li>
             <li class="group">
               <nuxt-link to="/about" class="nav-item ">About</nuxt-link>
+              
             </li>
             <li class="group relative">
               <span @click="toggleDropdown" class="nav-item cursor-pointer service-link ">Servicesss</span>
