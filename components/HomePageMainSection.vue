@@ -9,7 +9,10 @@
     <img src="/images/right2.webp" alt="" class="absolute right-0 right-maroon rotating-image" />
     <img src="/images/right3.webp" alt="" class="absolute right-0 right-green rotating-image" />
 
+
+
     
+
     <img src="/images/right4.webp" alt="" class="absolute right-0 right-last rotating-image1" />
     <div class="flex flex-col items-center justify-center text-center text-white relative z-10 h-3/4 ">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 text-black">Uncover the possibilities

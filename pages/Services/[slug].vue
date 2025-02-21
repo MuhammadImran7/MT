@@ -8,6 +8,9 @@
               <h1 class="text-4xl font-extrabold pb-8 pt-5">{{ service.description }}</h1>
               <ul class="space-y-2">
                 <li v-for="(item, index) in service.items" :key="index" class="relative pl-6">
+
+
+                  
                   <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-2.5 h-2.5 bg-green-600"></span>
                   {{ item }}
                 </li>
