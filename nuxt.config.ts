@@ -12,5 +12,6 @@ export default defineNuxtConfig({
   },
   css: [
     '@fortawesome/fontawesome-free/css/all.css', // Add FontAwesome CSS
+    '~/assets/css/main.css',
   ],
 })

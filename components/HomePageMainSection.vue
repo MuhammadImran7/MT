@@ -14,9 +14,13 @@
         <br> our specialists can offer you.
       </h1>
       <p class="text-xl md:text-2xl mb-6 text-gray-500 ">We plan, implement, and support your digital workplace technology.</p>
-      <button class="hover:bg-[#01d486] text-gray-800 font-bold py-4 px-12 rounded-lg shadow hover:text-white ">
+      <NuxtLink
+        to="/contact"
+        class="hover:bg-[#01d486] text-gray-800 font-bold py-4 px-12 rounded-lg shadow hover:text-white"
+      >
         Tell Us How We Can Help You...
-      </button>
+      </NuxtLink>
+
     </div>
   </div>
 </section>

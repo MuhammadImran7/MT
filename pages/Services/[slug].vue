@@ -16,8 +16,8 @@
   
             <div class="relative">
               <img :src="service.images.laptop" alt="" class="w-full">
-              <img :src="service.images.Vuelogo" class="absolute left-0 top-10 animate-bounce-slow" alt="">
-              <img :src="service.images.react" class="absolute bottom-2 right-0 animate-bounce-slow" alt="">
+              <img :src="service.images.Vuelogo" class="absolute left-0 top-10 animate-bounce duration-[1s]" alt="">
+              <img :src="service.images.react" class="absolute bottom-2 right-0 animate-bounce duration-[1s]" alt="">
             </div>
           </div>
         </div>
@@ -70,5 +70,8 @@ const filteredImages = computed(() => {
   
   <style scoped>
   /* Minimal additional styles if needed */
+  .animate-bounce-slow {
+    animation: bounce 3s infinite !important;
+}
   </style>
   
