@@ -3,6 +3,10 @@
   <div :style="{ backgroundImage: `url('/images/HomePageHeroSectionBG.webp')` }" class="main-section relative bg-cover bg-center h-screen">
     <img src="/images/left1.webp" alt="Rotating Image" class="absolute left-20 top-react rotating-image1" />
     <img src="/images/left2.webp" alt="" class="absolute left-40 top-wordpress rotating-image" />
+
+
+
+    
     <img src="/images/left3.webp" alt="" class="absolute left-60 bottom-red rotating-image1" />
     <img src="/images/left4.webp" alt="" class="absolute left-20 bottom-xd rotating-image" />
     <img src="/images/right1.webp" alt="" class="absolute right-0 right-android rotating-image1" />
@@ -11,7 +15,7 @@
 
 
 
-    
+
 
     <img src="/images/right4.webp" alt="" class="absolute right-0 right-last rotating-image1" />
     <div class="flex flex-col items-center justify-center text-center text-white relative z-10 h-3/4 ">

@@ -5,12 +5,14 @@
           <div class="grid lg:grid-cols-2 gap-10">
             <div>
               <p class="text-custom-green text-xl font-extrabold">{{ service.title }}</p>
+
+              
               <h1 class="text-4xl font-extrabold pb-8 pt-5">{{ service.description }}</h1>
               <ul class="space-y-2">
                 <li v-for="(item, index) in service.items" :key="index" class="relative pl-6">
 
 
-                  
+
                   <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-2.5 h-2.5 bg-green-600"></span>
                   {{ item }}
                 </li>
@@ -19,6 +21,11 @@
   
             <div class="relative">
               <img :src="service.images.laptop" alt="" class="w-full">
+
+
+
+
+
               <img :src="service.images.Vuelogo" class="absolute left-0 top-10 animate-bounce-slow" alt="">
               <img :src="service.images.react" class="absolute bottom-2 right-0 animate-bounce-slow" alt="">
             </div>
