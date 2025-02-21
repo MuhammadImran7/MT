@@ -29,8 +29,8 @@
                 guidance to navigate today’s marketplace
               </p>
               <NuxtLink
-                to="/our-company-about"
-                class="text-[13px]  font-extrabold uppercase tracking-[0.93px] text-[#020626] bg-[#0206260D] hover:text-white hover:bg-[#01d486] no-underline border-none border-none rounded-none py-[15px] px-[15px] no-underline whitespace-nowrap w-[10rem] h-[3rem] text-center relative"
+                to="/about"
+                class="text-[13px]  font-extrabold uppercase tracking-[0.93px] text-[#020626] bg-[#0206260D] hover:text-white hover:bg-[#01d486] border-none rounded-none py-[15px] px-[15px] no-underline whitespace-nowrap w-[10rem] h-[3rem] text-center relative"
                 >VIEW MORE</NuxtLink
               >
             </div>

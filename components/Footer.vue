@@ -7,7 +7,7 @@
             <nuxt-link to="/">
               <NuxtImg src="/images/footerlogo.png" alt="Optimized Image" class="h-12"/>
             </nuxt-link>
-            <div class="flex items-center mb-2">
+            <div class="flex items-center my-5">
               <font-awesome-icon :icon="['fas', 'map-marker-alt']" class="text-xl" />
               <p class="ml-2 text-sm">
                 Mujahid Business Center 36, Service road north, I-9/2
