@@ -14,4 +14,7 @@ export default defineNuxtConfig({
     '@fortawesome/fontawesome-free/css/all.css', // Add FontAwesome CSS
     '~/assets/css/main.css',
   ],
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
 })

@@ -116,13 +116,14 @@
         </div>
   
         <p class="py-3 text-center text-sm text-white bg-gray-800">
-          Copyright © 2024 MountainTech
-        </p>
+    Copyright © {{ currentYear }} MountainTech
+  </p>
       </div>
     </footer>
   </template>
   
   <script setup>
+  const currentYear = new Date().getFullYear();
   </script>
   
   <style scoped>
