@@ -13,7 +13,7 @@
       transformative results, ensuring that our clients stay ahead of the competition
       </p> 
       <div
-        class="flex flex-col lg:flex-row md:flex-row gap-2 items-center justify-center pb-10 pt-5 mb-3 lg:items-center items-end"
+        class="flex flex-col lg:flex-row md:flex-row gap-2 items-center justify-center pb-10 pt-5 mb-3 lg:items-center"
       >
         <NuxtLink
           to="/contact"

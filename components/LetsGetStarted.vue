@@ -17,7 +17,7 @@
         you!
       </p>
       <div
-        class="flex flex-col lg:flex-row md:flex-row gap-2 items-center justify-center py-4 mb-3 lg:items-center items-end"
+        class="flex flex-col lg:flex-row md:flex-row gap-2 items-center justify-center py-4 mb-3 lg:items-center"
       >
         <NuxtLink
           to="/contact"
