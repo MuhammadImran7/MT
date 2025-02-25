@@ -1,6 +1,6 @@
 <template>
     <div class="custom-padding">
-      <section class="bg-gray-100 py-12" :style="{ backgroundImage: `url(${service.images.bg})` }">
+      <section class="bg-gray-100 py-12 px-5" :style="{ backgroundImage: `url(${service.images.bg})` }">
         <div class="container mx-auto">
           <div class="grid lg:grid-cols-2 gap-10">
             <div>
@@ -23,7 +23,7 @@
         </div>
       </section>
   
-      <div class="container mx-auto py-12">
+      <div class="container mx-auto py-12 px-5">
         <div class="grid lg:grid-cols-2 border-b-[12px] border-green-500 pb-8">
           <p class="text-xl font-extrabold text-gray-800">Programming Languages and Technologies</p>
           <div class="flex items-center gap-8 flex-wrap">
