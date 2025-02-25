@@ -1,10 +1,10 @@
 <template>
-    <div class="container mx-auto text-center py-10">
+    <div class="container mx-auto text-center pt-10 px-5">
       <h2 class="text-center font-bold text-[#01d486] text-[16px] leading-none uppercase">
         Client IT Solution
       </h2>
       <h3
-        class="leading-[1.5em] tracking-[0px] font-extrabold text-[55px] text-black z-[1000] relative"
+        class="leading-[1.5em] tracking-[0px] font-extrabold text-[55px] text-black relative"
       >
         Our Happy Clients
       </h3>
@@ -12,7 +12,7 @@
         See how MountainTech has helped businesses, delivering the best people and technology <br>
         unravelling complexity and bringing a sustainable competitive advantage.
       </p>
-      <div class="flex flex-col md:flex-row md:gap-8 justify-center items-center py-10 mb-10">
+      <div class="flex flex-col md:flex-row md:gap-8 justify-center items-center my-10">
           <div
             class="pb-3 w-auto"
             v-for="(testimonial, index) in testimonials"

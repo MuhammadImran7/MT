@@ -1,5 +1,5 @@
 <template>
-<div class="container mx-auto text-center">
+<div class="container mx-auto text-center px-5">
     <h2
       class="text-center font-bold text-[#01d486] text-[16px] leading-none uppercase "
     >

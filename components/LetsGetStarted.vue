@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto py-10 text-center border-b-[12px] border-black mb-10">
+    <div class="container mx-auto py-10 text-center border-b-[12px] border-black mb-10 px-4">
       <h3
         class="text-2xl font-bold lowercase text-[#01d486] leading-[1.5em] text-center "
       >

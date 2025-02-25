@@ -1,6 +1,6 @@
 <template>
-    <div class="container mt-6 mx-auto pb-20" id="mt-contact-inner">
-      <div class="flex flex-col lg:flex-row gap-10">
+    <div class="container mt-6 mx-auto pb-lg-20 pb-10 px-5" id="mt-contact-inner">
+      <div class="flex flex-col lg:flex-row gap-lg-10 gap-0">
         <!-- Left Section -->
         <div class="lg:w-1/2 w-full mb-5 lg:mb-0">
           <div class="flex justify-start items-center gap-3">

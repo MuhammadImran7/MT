@@ -1,5 +1,5 @@
 <template>
-    <section class="my-4 lg:my-12">
+    <section class="my-4 lg:my-12 px-5">
       <div class="container mx-auto">
         <div class="flex flex-wrap">
           <!-- Left Column -->

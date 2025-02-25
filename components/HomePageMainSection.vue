@@ -1,15 +1,15 @@
 <template>
     <section>
   <div :style="{ backgroundImage: `url('/images/HomePageHeroSectionBG.webp')` }" class="main-section relative bg-cover bg-center h-screen">
-    <img src="/images/left1.webp" alt="Rotating Image" class="absolute left-20 top-react rotating-image1" />
-    <img src="/images/left2.webp" alt="" class="absolute left-40 top-wordpress rotating-image" />
+    <img src="/images/left1.webp" alt="Rotating Image" class="absolute left-20 top-react rotating-image1 hidden lg:block" />
+    <img src="/images/left2.webp" alt="" class="absolute left-40 top-wordpress rotating-image hidden lg:block" />
     <img src="/images/left3.webp" alt="" class="absolute left-60 bottom-red rotating-image1" />
     <img src="/images/left4.webp" alt="" class="absolute left-20 bottom-xd rotating-image" />
     <img src="/images/right1.webp" alt="" class="absolute right-0 right-android rotating-image1" />
-    <img src="/images/right2.webp" alt="" class="absolute right-0 right-maroon rotating-image" />
+    <img src="/images/right2.webp" alt="" class="absolute right-0 right-maroon rotating-image hidden lg:block" />
     <img src="/images/right3.webp" alt="" class="absolute right-0 right-green rotating-image" />
-    <img src="/images/right4.webp" alt="" class="absolute right-0 right-last rotating-image1" />
-    <div class="flex flex-col items-center justify-center text-center text-white relative z-10 h-3/4 ">
+    <img src="/images/right4.webp" alt="" class="absolute right-0 right-last rotating-image1 hidden lg:block" />
+    <div class="mt-5 flex flex-col items-center justify-start lg:items-center lg:justify-center text-center text-white relative z-10 h-3/4">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 text-black">Uncover the possibilities
         <br> our specialists can offer you.
       </h1>
@@ -91,5 +91,17 @@ img.rotating-image1 {
 img.rotating-image {
   animation: mover 2s ease-in-out infinite alternate;
 }
+@media (max-width: 1024px) {
+  .right-green{
+    bottom: 19rem;
+        right: 4rem;
+    
+}
+.bottom-red{
+        bottom: 18rem;
+        left: 1rem;
+    }
+}
+
   </style>
   

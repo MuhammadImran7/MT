@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto pb-10">
+    <div class="container mx-auto pb-10 px-5">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <!-- First large image -->
         <div>
