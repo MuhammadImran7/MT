@@ -50,7 +50,7 @@ const images = [
 
 /* Hide default text icon */
 .swiper-button-prev::after {
-  content: '';
+  content: '' !important;
 }
 
 /* Custom Next Button */
@@ -61,6 +61,6 @@ const images = [
   height: 50px;
 }
 .swiper-button-next::after {
-  content: '';
+  content: '' !important;
 }
 </style>
