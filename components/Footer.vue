@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-gray-700 py-3">
-      <div class="">
-        <div class="grid grid-cols-1 md:grid-cols-4 text-white gap-4 mx-10">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-4 text-white gap-4">
           <!-- Logo and Contact Info -->
           <div class="flex flex-col">
             <nuxt-link to="/">
@@ -115,10 +115,11 @@
           </div>
         </div>
   
-        <p class="py-3 text-center text-sm text-white bg-gray-800">
+        
+      </div>
+      <p class="py-3 text-center text-sm text-white bg-gray-800">
     Copyright © {{ currentYear }} MountainTech
   </p>
-      </div>
     </footer>
   </template>
   

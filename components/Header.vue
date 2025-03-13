@@ -1,6 +1,7 @@
 <template>
     <header class="bg-white relative z-50 shadow"> <!-- Make header relative and adjust z-index -->
-      <div class="mx-10 flex justify-between items-center p-4">
+      <div class="container mx-auto">
+      <div class="flex justify-between items-center py-4">
         <!-- Logo -->
         <div class="text-2xl font-bold text-black ">
            <nuxt-link to="/"><NuxtImg src="/images/homePageLogo.webp" alt="Logo
@@ -56,6 +57,7 @@
           </ul>
         </nav>
       </div>
+    </div>
     </header>
   </template>
   
