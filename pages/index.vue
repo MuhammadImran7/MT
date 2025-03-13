@@ -7,6 +7,5 @@
        <PortfolioCarousel/>
        <OurClient/>
        <LetsGetStarted />
-       <MapTem />
     </div>
 </template>
