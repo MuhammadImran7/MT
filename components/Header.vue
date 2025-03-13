@@ -19,7 +19,7 @@
         <nav :class="{'block': isOpen, 'hidden': !isOpen}" class="md:block absolute top-full left-0 w-full bg-white md:static md:w-auto">
           <ul class="flex md:flex-row flex-col space-y-2 md:space-y-0 md:space-x-6 p-4 md:p-0 "> <!-- Add  class here -->
             <li class="group">
-              <nuxt-link to="/" class="nav-item ">Homertrt</nuxt-link>
+              <nuxt-link to="/" class="nav-item ">Home</nuxt-link>
             </li>
             <li class="group">
               <nuxt-link to="/about" class="nav-item ">About</nuxt-link>
